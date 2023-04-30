@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock , Paper , Scissors Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section1">
+            <h1 class="cover">Choose Your Weapon</h1>
+            <h3>User Choosed :</h3>
+            <ul class="user">
+                <li class="item"><img src="./images/paper.png" alt=""  class="img-items"></li>
+                <li class="item"><img src="./images/rock.png" alt="" class="img-items"></li>
+                <li class="item"><img src="./images/scissors.png" alt="" class="img-items"></li>
+            </ul>
+            <h3>Cpu Choosed : </h3>
+                <img src="./images/paper.png" alt="" class="cpu-icon hidden">
+                <img src="./images/rock.png" alt="" class="cpu-icon hidden">
+                <img src="./images/scissors.png" alt="" class="cpu-icon hidden">
+                <button class="refresh">Refresh</button>
+         </div>
+        <div class="section2">
+            <h1>points : </h1>
+            <div class="grade">
+                <h3>User : </h3>
+                <h3>CPU :</h3>
+            </div>
+               <div class="grade">
+                <p class="point-user">0</p>
+                <p class="point-cpu">0</p>
+               </div> 
+        </div>
+    </div>
+ 
+    <script src="./app.js"></script>
+</body>
+</html>
